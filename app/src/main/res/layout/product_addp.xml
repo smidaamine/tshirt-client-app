@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sizelbl"
+        android:textSize="20sp"
+        android:text="Size "
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/size"
+        android:textSize="20sp"
+        android:text="dd"
+        android:layout_toRightOf="@+id/sizelbl"
+        android:layout_toEndOf="@+id/sizelbl"
+        android:padding="2dp"/>
+
+
+</RelativeLayout>

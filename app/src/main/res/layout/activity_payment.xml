@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.smamine.tshirapp.ui.Payment"
+    android:background="@drawable/bbb">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="117dp"
+        android:id="@+id/photo"
+        android:layout_weight="1" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_insert_photo_white_24dp"
+        android:background="@color/black_overlay"
+
+        android:id="@+id/takeImg"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sendPayment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Valider"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:background="@color/cardview_dark_background"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/paymentImage"
+        android:layout_above="@+id/sendPayment"
+        android:layout_marginBottom="40dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="facebook_app_id">739962846148662</string>
+    <string name="app_name">M&amp;Ps Shirts</string>
+    <string name="title_activity_log_in">M&amp;Ps Shirts</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_button">Login</string>
+    <string name="title_activity_dashboard">M&amp;Ps Shirts</string>
+    <string name="title_activity_inscription">M&amp;Ps Shirts</string>
+    <string name="logout">logout</string>
+    <string name="title_activity_worck_place">M&amp;Ps Shirts</string>
+    <string name="title_activity_user_details">Profil</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="account">Account</string>
+    <string name="phone">Phone</string>
+    <string name="willaya">Willaya</string>
+    <string name="continue_text">Continue</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">last Name</string>
+    <string name="title_activity_upadte_profile">M&amp;Ps Shirts</string>
+    <string name="title_activity_custum_shirt">M&amp;Ps Shirts</string>
+    <string name="isLogo"></string>
+    <string name="logoUri"></string>
+    <string name="color"></string>
+    <string name="font_name"></string>
+    <string name="title_activity_orders_history">M&amp;Ps Shirts</string>
+    <string name="title_activity_order_details">M&amp;Ps Shirts</string>
+    <string name="enter">Continue</string>
+    <string name="order">Order</string>
+    <string name="cancel">Cancel</string>
+    <string name="validate_payment">Valider le paiment</string>
+    <string name="your_name_cannot_be_empty">Name must be not empty</string>
+    <string name="your_phone_cannot_be_empty">Phone must be not empty</string>
+    <string name="your_quantity_cannot_be_empty">Quantity must not be empty</string>
+</resources>
